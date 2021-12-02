@@ -106,8 +106,6 @@ export class Board {
 	}
 
 	private completePath(event) {
-		console.log(this.currentPath_.segments);
-		// When the mouse is released, simplify it:
 		this.currentPath_.simplify(10);
 		this.isStroking_ = false;
 	}
